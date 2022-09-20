@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Calculator</title>
+  <link rel="stylesheet" href="./index.css">
+  <script src="./index.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="screen">
+      <input type="text" id="display">
+    </div>
+    <div class="input-section">
+      <div class="row">
+        <input type="button" value="7" onclick="btnclick(value)">
+        <input type="button" value="8" onclick="btnclick(value)">
+        <input type="button" value="9" onclick="btnclick(value)">
+        <input type="button" value="/" id='operator' onclick="btnclick(value)">
+      </div>
+      <div class="row">
+        <input type="button" value="4" onclick="btnclick(value)">
+        <input type="button" value="5" onclick="btnclick(value)">
+        <input type="button" value="6" onclick="btnclick(value)">
+        <input type="button" value="*" id='operator' onclick="btnclick(value)">
+      </div>
+      <div class="row">
+        <input type="button" value="1" onclick="btnclick(value)">
+        <input type="button" value="2" onclick="btnclick(value)">
+        <input type="button" value="3" onclick="btnclick(value)">
+        <input type="button" value="-" id='operator' onclick="btnclick(value)">
+      </div>
+      <div class="row">
+        <input type="button" value="c" id='clr' onclick="clr()">
+        <input type="button" value="0" onclick="btnclick(value)">
+        <input type="button" value="=" id='evl' onclick="calculate()">
+        <input type="button" value="+" id='operator' onclick="btnclick(value)">
+
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+</html>
