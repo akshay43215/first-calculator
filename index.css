@@ -29,6 +29,9 @@
      margin-top: 40px;
 
  }
+ .screen > input {
+    padding: 0 30px;
+ }
 
  .input-section .row {
      display: flex;
